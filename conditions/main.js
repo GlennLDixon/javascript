@@ -19,3 +19,15 @@ function testGreaterThan(val) {
 }
 
 console.log(testGreaterThan(101));
+
+function testGreaterOrEqual(val) {
+    if (val >= 20)
+        return "20 or Over";
+
+    if (val >= 10)
+        return "10 or Over";
+
+    return "Less than 10";
+}
+
+console.log(testGreaterThanOrEqual(20));
