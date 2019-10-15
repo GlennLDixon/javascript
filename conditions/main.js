@@ -69,3 +69,15 @@ function testLogicalAnd(val) {
 
 // Change this value to test
 console.log(testLogicalAnd(10));
+
+function testLogicalOr(val) {
+    // Only change code below this line
+    if (val < 10 || val > 20) {
+        return "Outside";
+    }
+
+    // Only change code above this line
+    return "Inside";
+}
+
+console.log(testLogicalOr(5));
