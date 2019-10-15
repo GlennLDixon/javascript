@@ -82,32 +82,32 @@
 
 // console.log(testLogicalOr(5));
 
-function testElse(val) {
-    var result = "";
-    // Only change code below this line
+// function testElse(val) {
+//     var result = "";
+//     // Only change code below this line
 
-    if (val > 5) {
-        result = "Bigger than 5";
-    } else {
-        result = "5 or smaller";
-    }
+//     if (val > 5) {
+//         result = "Bigger than 5";
+//     } else {
+//         result = "5 or smaller";
+//     }
 
-    // Only change code above this line
-    return result;
-}
+//     // Only change code above this line
+//     return result;
+// }
 
-// Change this value to test
-testElse(4);
+// // Change this value to test
+// testElse(4);
 
-function testElseIf(val) {
-    if (val > 10) {
-        return "Greater than 10";
-    } else if (val < 5) {
-        return "Smaller than 5";
-    } else {
-        return "Between 5 and 10";
-    }
-}
+// function testElseIf(val) {
+//     if (val > 10) {
+//         return "Greater than 10";
+//     } else if (val < 5) {
+//         return "Smaller than 5";
+//     } else {
+//         return "Between 5 and 10";
+//     }
+// }
 
-// Change this value to test
-testElseIf(7);
+// // Change this value to test
+// testElseIf(7);
