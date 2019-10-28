@@ -137,6 +137,8 @@
 //     "Double Bogey",
 //     "Go Home!"
 // ];
+
+
 // function golfScore(par, strokes) {
 //     // Only change code below this line
 //     if (strokes == 1) {
@@ -258,3 +260,10 @@ function chainToSwitch(val) {
 }
 // Change this value to test
 console.log(chainToSwitch(7));
+
+function isLess(a, b) {
+    // Fix this code
+    return a <= b;
+}
+// Change these values to test
+console.log(isLess(10, 15));
