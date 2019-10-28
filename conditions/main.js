@@ -312,6 +312,13 @@ function cc(card) {
   
     console.log(cc(2));
 
+var myDog = {
+"name": "Joe",
+"legs": 4,
+"tails": 1,
+"friends": ["many", "Ade"]
 
+};
 
+console.log(myDog);
 
