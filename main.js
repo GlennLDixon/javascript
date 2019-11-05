@@ -322,62 +322,63 @@
 
 // console.log(myDog);
 
-var testObj = {
-    hat: "ballcap",
-    shirt: "jersey",
-    shoes: "cleats"
-};
+// var testObj = {
+//     hat: "ballcap",
+//     shirt: "jersey",
+//     shoes: "cleats"
+// };
 
-// Only change code below this line
+// // Only change code below this line
 
-var hatValue = testObj.hat; // Change this line
-var shirtValue = testObj.shirt; // Change this line
+// var hatValue = testObj.hat; // Change this line
+// var shirtValue = testObj.shirt; // Change this line
 
-var testObj = {
-    "an entree": "hamburger",
-    "my side": "veggies",
-    "the drink": "water"
-};
+// var testObj = {
+//     "an entree": "hamburger",
+//     "my side": "veggies",
+//     "the drink": "water"
+// };
 
-// Only change code below this line
+// // Only change code below this line
 
-var entreeValue = testObj["an entree"]; // Change this line
-var drinkValue = testObj["the drink"]; // Change this line
-
-
-// Setup
-var testObj = {
-    12: "Namath",
-    16: "Montana",
-    19: "Unitas"
-};
-
-// Only change code below this line;
-
-var playerNumber = 16; // Change this Line
-var player = testObj[playerNumber]; // Change this Line
+// var entreeValue = testObj["an entree"]; // Change this line
+// var drinkValue = testObj["the drink"]; // Change this line
 
 
-function multiplyAll(arr) {
-    var product = 1;
-    // Only change code below this line
-    for (var i = 0; i < arr.length; i++) {
-        for (var j = 0; j < arr[i].length; j++) {
-            product = product * arr[i][j];
-        }
-    }
-    // Only change code above this line
-    return product;
-}
+// // Setup
+// var testObj = {
+//     12: "Namath",
+//     16: "Montana",
+//     19: "Unitas"
+// };
 
-// Modify values below to test your code
-console.log(multiplyAll([[1, 2], [3, 4], [5, 6, 7]]));
+// // Only change code below this line;
 
-var randomNumberBetween0and19 = Math.floor(Math.random() * 20);
+// var playerNumber = 16; // Change this Line
+// var player = testObj[playerNumber]; // Change this Line
 
-function randomWholeNum() {
-    // Only change code below this line.
-    return Math.floor(Math.random() * 10);
-}
 
-console.log(randomWholeNum());
+// function multiplyAll(arr) {
+//     var product = 1;
+//     // Only change code below this line
+//     for (var i = 0; i < arr.length; i++) {
+//         for (var j = 0; j < arr[i].length; j++) {
+//             product = product * arr[i][j];
+//         }
+//     }
+//     // Only change code above this line
+//     return product;
+// }
+
+// // Modify values below to test your code
+// console.log(multiplyAll([[1, 2], [3, 4], [5, 6, 7]]));
+
+// var randomNumberBetween0and19 = Math.floor(Math.random() * 20);
+
+// function randomWholeNum() {
+//     // Only change code below this line.
+//     return Math.floor(Math.random() * 10);
+// }
+
+// console.log(randomWholeNum());
+
