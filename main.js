@@ -382,3 +382,8 @@
 
 // console.log(randomWholeNum());
 
+function subtraction(num1, num2) {
+    return num1 + num2;
+}
+
+console.log(4, 3);
