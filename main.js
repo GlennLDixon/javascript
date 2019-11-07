@@ -382,8 +382,9 @@
 
 // console.log(randomWholeNum());
 
-function subtraction(num1, num2) {
-    return num1 + num2;
+function revStr(str) {
+    if (str === '') return '';
+    return revStr(str.substr(1)) + str[0];
 }
 
-console.log(4, 3);
+console.log(revStr('worldstar'));
