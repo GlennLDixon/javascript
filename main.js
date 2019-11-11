@@ -382,6 +382,18 @@
 
 // console.log(randomWholeNum());
 
+function rangeOfNumbers(startNum, endNum) {
+  if (endNum - startNum === 0) {
+    return [startNum];
+  } else {
+    var numbers = rangeOfNumbers(startNum, endNum - 1);
+    numbers.push(endNum);
+    return numbers;
+  }
+};
+
+console.log(rangeOfNumbers(1, 10))
+
 function revStr(str) {
     if (str === '') return '';
     return revStr(str.substr(1)) + str[0];
