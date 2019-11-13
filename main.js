@@ -392,7 +392,7 @@ function rangeOfNumbers(startNum, endNum) {
   }
 };
 
-console.log(rangeOfNumbers(1, 10))
+console.log(rangeOfNumbers(1, 4))
 
 function revStr(str) {
     if (str === '') return '';
